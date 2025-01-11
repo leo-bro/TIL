@@ -55,7 +55,8 @@
     ** 충돌 해결 후에도 이상이 있는 경우:
         reset을 이용하여 되돌리기 시전
 
-  
+### main branch 작업 섹션
+- main branch 입니다.  
 
 #### 참고 사이트
 https://inflearn.com
