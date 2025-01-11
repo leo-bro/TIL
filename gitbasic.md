@@ -55,8 +55,14 @@
     ** 충돌 해결 후에도 이상이 있는 경우:
         reset을 이용하여 되돌리기 시전
 
+<<<<<<< HEAD
 ### main branch 작업 섹션
 - main branch 입니다.  
+=======
+### conflict branch 에서 작업한 섹션
+- conflict branch 입니다.
+  
+>>>>>>> conflict
 
 #### 참고 사이트
 https://inflearn.com
