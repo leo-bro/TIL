@@ -1,4 +1,4 @@
-# hello git
+# Basic git
 
 ## git 명령어 요약
 
@@ -39,4 +39,5 @@
 ![case2](./case2.png)
 
 #### 참고 사이트
+https://inflearn.com
 https://learngitbranching.js.org/
