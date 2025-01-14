@@ -8,6 +8,8 @@ Google AI Bootcamp 수료 후 소속된 Developer community를 통해 진행한 
 
 Title: '박찬성' 님의 'AI를 이용한 자동 논문 리뷰 시스템' 
 
+Youtube link: https://www.youtube.com/watch?v=Owo778P6aoM&ab_channel=GoogleforDevelopersKorea
+
 ## Problem statement
 
 - AI 분야는 traditional 분야와는 조금 다름.
