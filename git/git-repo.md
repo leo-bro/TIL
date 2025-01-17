@@ -9,4 +9,15 @@ Github에 입문하면서 repository를 깔끔하고 효율적으로 관리하�
 - TIL/git 하위 폴더로 my-git-journey 프로젝트 내용을 병합한다.
 - 이전 커밋 기록이 사라지지 않았으면 좋겠다.
 
+해결 방법
+
+``` 
+git subtree add prefix=(하위 디렉토리 이름 설정) (옮길 레포지토리 디렉토리) (옮길 레포지토리 브랜치)
+git add .
+git push
+```
+다음과 같이 하위폴더 생성과 함께 이전 커밋 기록이 담긴 브랜치와 병합할 수 있었다.
+
+![sourcetree.png](sourcetree.png)
+
 참고 사이트: https://mgyo.tistory.com/385
