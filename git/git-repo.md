@@ -11,7 +11,7 @@ Github에 입문하면서 repository를 깔끔하고 효율적으로 관리하�
 
 해결 방법
 
-``` 
+```bash
 git subtree add prefix=(하위 디렉토리 이름 설정) (옮길 레포지토리 디렉토리) (옮길 레포지토리 브랜치)
 git add .
 git push
