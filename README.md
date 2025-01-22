@@ -11,6 +11,7 @@
 - [copliot.md](copliot.md): GitHub Copilot에 대한 설명과 사용법을 다룹니다.
 - [git/](git/): Git 명령어와 개념에 대한 마크다운 파일들이 포함되어 있습니다.
 - [GoogleAI/](GoogleAI/): Google AI와 관련된 학습 내용을 포함하고 있습니다.
+- [python/](python/): Python 프로그래밍 언어와 관련된 학습 내용을 포함하고 있습니다.
 
 ## 추가 자료
 
