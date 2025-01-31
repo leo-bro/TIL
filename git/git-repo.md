@@ -21,3 +21,9 @@ git push
 ![sourcetree.png](sourcetree.png)
 
 참고 사이트: https://mgyo.tistory.com/385
+
+## [에러] 푸시 오류 메세지 : Permission denied (publickey). fatal: Could not read from remote repository.
+
+
+
+참고 사이트: https://velog.io/@posinity/에러-푸시-오류-메세지-Permission-denied-publickey.fatal-Could-not-read-from-remote-repository
