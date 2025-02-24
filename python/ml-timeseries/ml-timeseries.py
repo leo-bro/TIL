@@ -1,3 +1,5 @@
+pip install numpy
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -22,13 +24,13 @@ y = np.array(
             (np.log(np.abs(2 + x1[t])) - x2[t - 1] ** 2)
             + 0.02 * x3[t - 3] * np.exp(x1[t - 1])
         )
-        for t in range(len(t))
+        for t in range(3, len(t))
     ]
 )
-y = np.round(y + n, 2)
+y = np.round(y + n[3:], 2)
 
 # 데이터 시각화
-plt.plot(t, y)
+plt.plot(t[3:], y)
 plt.xlabel("Time")
 plt.ylabel("Value")
 plt.title("Time Series Data")
@@ -36,7 +38,8 @@ plt.show()
 
 # 데이터 프레임 생성 및 전처리
 dataset = pd.DataFrame(
-    np.concatenate((t, x1, x2, x3, y), axis=1), columns=["t", "x1", "x2", "x3", "y"]
+    np.concatenate((t[3:], x1[3:], x2[3:], x3[3:], y), axis=1),
+    columns=["t", "x1", "x2", "x3", "y"],
 )
 
 deltaT = np.array([(dataset.t[i + 1] - dataset.t[i]) for i in range(len(dataset) - 1)])
