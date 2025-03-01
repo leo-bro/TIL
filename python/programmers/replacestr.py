@@ -3,3 +3,6 @@ def solution(myString, pat):
     myString_table = myString.maketrans(d)
     answer = 1 if pat in myString.translate(myString_table) else 0
     return answer
+
+
+print(solution("ABABABABAB", "ABAB"))  # 1
