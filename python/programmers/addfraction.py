@@ -16,3 +16,7 @@ def solution(numer1, denom1, numer2, denom2):
     answer = [numer // gcd(numer, denom), denom // gcd(numer, denom)]
 
     return answer
+
+
+print(solution(2, 3, 3, 5))
+print(solution(4, 1, 4, 1))
