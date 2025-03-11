@@ -6,3 +6,4 @@ def solution(price):
 
 
 print(solution(1300000))  # 1170000
+print(solution(2100000))  # 1890000
