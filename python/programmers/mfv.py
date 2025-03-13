@@ -21,3 +21,7 @@ def solution(array):
         if i == 0:
             return a
     return -1
+
+
+print(solution([1, 2, 3, 4, 5, 5, 5, 5, 5]))  # 5
+print(solution([1, 2, 3, 4, 5, 5, 5, 5, 4]))  # -1
