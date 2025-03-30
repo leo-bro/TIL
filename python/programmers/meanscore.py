@@ -20,6 +20,11 @@ def solution(score):
     return answer
 
 
+def solution(score):
+    a = sorted([sum(i) for i in score], reverse=True)
+    return [a.index(sum(i)) + 1 for i in score]
+
+
 print(
     solution([[80, 70], [70, 80], [30, 50], [90, 100], [100, 90], [100, 100], [10, 30]])
 )  # [1, 2]
